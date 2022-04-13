@@ -1,0 +1,271 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  width: 640px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  width: 640px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  padding: 20px 50px 0 50px;
+}
+
+.header__left {
+  text-align: center;
+}
+
+.header span {
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.banner {
+  background-image: url(/img/banner.png);
+  height: 220px;
+  padding-top: 65px;
+}
+
+.banner__text {
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner__text h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.introduction {
+  margin-top: 20px;
+  padding-left: 50px;
+}
+
+.introduction__header {
+  display: flex;
+  align-items: center;
+}
+
+.introduction__text {
+  margin-left: 12px;
+  color: #004A62;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.introduction__body {
+  margin-top: 20px;
+}
+
+.introduction__order {
+  font-size: 16px;
+  font-weight: 400;
+  color: #353535;
+  letter-spacing: 0.04rem;
+}
+
+.order {
+  display: flex;
+  margin-top: 10px
+}
+
+.order__text {
+  width: 65%;
+}
+
+.order__button {
+  margin: 0 auto;
+}
+
+.order__text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #353535;
+  letter-spacing: 0.04rem;
+}
+
+.button {
+  border-radius: 100px;
+  height: 33px;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  background: #004A62;
+}
+
+.button--large {
+  background-color: #EE7600;
+  box-shadow: 0px 5px 20px -3px rgba(255, 214, 166, 0.62), inset 0px 13px 20px rgba(255, 255, 255, 0.25);
+}
+
+.delivery {
+  margin: 28px 0;
+}
+
+.delivery__header {
+  border-top: 1px solid #E0E0E0;
+  padding-top: 28px;
+  margin: 0 50px;
+}
+
+.delivery__title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #004A62;
+  line-height: 21px;
+}
+
+.delivery__body {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 18px;
+  justify-content: space-between;
+}
+
+.delivery__left {
+  width: 40%;
+}
+
+.delivery__text {
+  margin-top: 46px;
+  font-weight: 400;
+  color: #353535;
+  line-height: 18.4px;
+  margin-left: 10px;
+}
+
+.delivery__left .button {
+  margin-top: 36px;
+  padding: 10px 20px;
+  margin-left: 37px;
+}
+
+.delivery__right {
+  display: flex;
+  width: 55%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.delivery__item {
+  width: calc(50% - 20px);
+}
+
+.delivery__item img {
+  width: 99px;
+}
+
+.delivery__item .delivery__text {
+  margin-left: 0;
+}
+
+.delivery__item .button {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.footer {
+  background: #004A62;
+  padding: 20px 50px;
+}
+
+.footer__top span {
+  font-weight: 500;
+  color: white;
+  line-height: 22px;
+  margin-left: 10px;
+}
+
+.footer__body {
+  margin: 10px 0;
+  display: flex;
+}
+
+.footer__left {
+  width: 60%;
+}
+
+.footer__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__item p {
+  color: white;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.footer__item .value {
+  text-decoration: underline;
+}
+
+.footer__right {
+  margin-left: 50px;
+}
+
+.footer__text {
+  color: white;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.footer__bottom span {
+  font-size: 8px;
+  line-height: 11px;
+  color: #C1C1C1;
+}
